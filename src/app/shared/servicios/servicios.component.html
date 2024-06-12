@@ -1,0 +1,14 @@
+<p>Tabla aqui</p>
+<div class="container">
+    <!-- Example row of columns -->
+    <table class="table">
+      @for (tabla of tablas; track tabla.id){
+        <tbody>
+            <tr>
+              <td>{{tabla.title}}</td>
+              <td>{{tabla.body}}</td>
+            </tr>
+          </tbody>
+      }
+    </table>
+</div>

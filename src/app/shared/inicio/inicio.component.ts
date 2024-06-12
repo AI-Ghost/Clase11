@@ -7,12 +7,4 @@ import { Component } from '@angular/core';
   templateUrl: './inicio.component.html',
   styleUrl: './inicio.component.css'
 })
-export class InicioComponent {
-  titulo:string = "Contactos"
-
-  medios:any[] = [
-    { "texto":"En Twitter" },
-    { "texto":"En Facebook" },
-    { "texto":"Por correo electronico" }
-  ]
-}
+export class InicioComponent {}
